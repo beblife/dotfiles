@@ -4,9 +4,6 @@ export DOTFILES=$HOME/.dotfiles
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Path to the Local Docker installation
-export LOCALDOCKER=$HOME/Code/3DAT_local_docker
-
 # Enable completions
 autoload -Uz compinit && compinit
 
