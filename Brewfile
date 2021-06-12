@@ -33,6 +33,7 @@ cask 'tableplus'
 cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask 'whatsapp'
+cask 'notion'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
