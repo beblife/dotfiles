@@ -19,6 +19,7 @@ extensions=(
 "shardulm94.trailing-spaces"
 "redhat.vscode-yaml"
 "esbenp.prettier-vscode"
+"felixfbecker.php-debug"
 )
 
 installs=$(printf " --install-extension %s" "${extensions[@]}")
