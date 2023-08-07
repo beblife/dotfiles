@@ -25,9 +25,8 @@ cask '1password-cli'
 cask 'appcleaner'
 cask 'discord'
 cask 'docker'
-cask 'google-chrome'
+cask 'brave-browser'
 cask 'iterm2'
-cask 'rocket'
 cask 'spotify'
 cask 'tableplus'
 cask 'the-unarchiver'
@@ -36,5 +35,6 @@ cask 'whatsapp'
 cask 'notion'
 
 # Mac App Store
-mas 'Spark', id: 1176895641
 mas 'Bear', id: 1091189122
+mas 'Medis 2 - GUI for Redis', id: 1579200037
+mas 'Hidden Bar', id: 1452453066
