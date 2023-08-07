@@ -16,6 +16,9 @@ alias serve="php artisan serve"
 
 # Git
 alias nah="git clean -df && git reset --hard"
+clb() {
+    git fetch --all --prune && git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -D
+}
 
 # Directories
 alias dotfiles="cd $DOTFILES"
