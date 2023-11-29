@@ -18,13 +18,13 @@ brew 'gh' # GitHub CLI
 brew 'composer'
 brew 'node'
 brew 'yarn'
+brew 'orbstack' # Docker replacement
 
 # Apps
 cask '1password'
 cask '1password-cli'
 cask 'appcleaner'
 cask 'discord'
-cask 'docker'
 cask 'brave-browser'
 cask 'iterm2'
 cask 'spotify'
