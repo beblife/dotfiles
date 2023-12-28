@@ -13,6 +13,10 @@ brew 'mas' # Mac App Store manager
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 
+# Neovim
+brew 'ripgrep'
+brew 'fd'
+
 # Development
 brew 'gh' # GitHub CLI
 brew 'composer'
