@@ -25,6 +25,9 @@ return {
                 mappings = {
                     i = {
                         ['<esc>'] = actions.close,
+                        ['<c-d>'] = actions.delete_buffer,
+                        ['<c-j>'] = actions.move_selection_next,
+                        ['<c-k>'] = actions.move_selection_previous,
                     }
                 },
 
