@@ -34,6 +34,10 @@ return {
 
         conform.setup({
             format_on_save = onSaveOptions,
+
+            formatters_by_ft = {
+                php = { "pint" },
+            },
         })
 
         -- Keymaps
